@@ -15,8 +15,6 @@ h2 {
 label {
     display: block;
     font-size: 1.2rem;
-    /* padding-top: 1rem; */
-    /* margin-top: 2rem; */
 }
 
 label:first-child {
@@ -34,10 +32,8 @@ div {
 
 [type="text"] {
     height: 1.6rem;
-    /* width: clamp(5rem, 80vw, 20rem); */
     margin-bottom: 1rem ;
     margin-top: .4rem;
-    /* font: inherit; */
 }
 
 select {
@@ -62,7 +58,6 @@ option {
     outline: none;
     font-size: inherit;
     font: inherit;
-    /* border: none; */
 }
 
 
@@ -71,11 +66,9 @@ button {
     font: inherit;
     text-transform: uppercase;
     letter-spacing: 2px;
-    /* border: 2px solid black; */
     border: none;
     display: block;
     margin: 1rem auto;
     border-radius: .5em;
     cursor: pointer;
-/* text-align: center;     */
 }

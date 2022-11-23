@@ -5,17 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>HTML, Git/GitHub Assignment</title>
+    <link rel="icon" href="imgs/favicon.ico" />
+    <title>HTML Form Assignment</title>
   </head>
 
   <body>
+    <!-- ====================================================================== -->
+    <!-- Header =============================================================== -->
     <header>
       <h1>HTML, Git/GitHub Assignment</h1>
     </header>
+
+    <!-- ====================================================================== -->
+    <!-- Main ================================================================= -->
     <main>
       <section class="form-wrapper">
         <h2>Basic HTML form</h2>
         <form action="#">
+          <!-- ====================================================================== -->
+          <!-- Name inputs ========================================================== -->
           <fieldset class="name">
             <legend>Name</legend>
             <label for="fname">First Name</label>
@@ -26,14 +34,8 @@
           <fieldset class="others">
             <legend>Other Questions</legend>
 
-            <!-- <div class="radio-inputs">
-              <input name="drink" type="radio" id="coffee" />
-              <label for="coffee">cofee</label>
-              <input name="drink" type="radio" id="tea" />
-              <label for="tea">tea</label>
-              <input name="drink" type="radio" id="choco" />
-              <label for="choco">hot chocolate</label>
-            </div> -->
+            <!-- ===================================================================== -->
+            <!-- drink type ========================================================== -->
             <div class="radio-inputs">
               <label for="drink">Choose a drink:</label>
               <label for="coffee">
@@ -49,19 +51,8 @@
                 hot chocolate</label
               >
             </div>
-
-            <!-- <div class="check-inputs">
-              <input type="checkbox" id="chocolate" />
-              <label for="chocolate">Chocholate</label>
-              <input type="checkbox" id="chocolate-pudding" />
-              <label for="chocolate-pudding">Chocolate Pudding</label>
-              <input type="checkbox" id="bb" />
-              <label for="bb">Chocolate Peanut Butter</label>
-              <input type="checkbox" id="vanilla" />
-              <label for="vanilla">Vanilla</label>
-              <input type="checkbox" id="strawberry" />
-              <label for="strawberry">Strawberry</label>
-            </div> -->
+            <!-- ===================================================================== -->
+            <!-- Ice-cream options==================================================== -->
             <div class="check-inputs">
               <label for="icecream">What ice cream do you like?</label>
               <label for="chocolate">
@@ -85,6 +76,8 @@
                 Strawberry</label
               >
             </div>
+            <!-- ================================================================== -->
+            <!-- School options==================================================== -->
             <label for="schoold">Select a school:</label>
             <select name="school" id="school">
               <option value="harvard">Harvard</option>
