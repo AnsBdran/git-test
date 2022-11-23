@@ -7,7 +7,103 @@
     <link rel="stylesheet" href="style.css" />
     <title>HTML, Git/GitHub Assignment</title>
   </head>
+
   <body>
-    <h1>HTML, Git/GitHub Assignment</h1>
+    <header>
+      <h1>HTML, Git/GitHub Assignment</h1>
+    </header>
+    <main>
+      <section class="form-wrapper">
+        <h2>Basic HTML form</h2>
+        <form action="#">
+          <fieldset class="name">
+            <legend>Name</legend>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" />
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" />
+          </fieldset>
+          <fieldset class="others">
+            <legend>Other Questions</legend>
+
+            <!-- <div class="radio-inputs">
+              <input name="drink" type="radio" id="coffee" />
+              <label for="coffee">cofee</label>
+              <input name="drink" type="radio" id="tea" />
+              <label for="tea">tea</label>
+              <input name="drink" type="radio" id="choco" />
+              <label for="choco">hot chocolate</label>
+            </div> -->
+            <div class="radio-inputs">
+              <label for="drink">Choose a drink:</label>
+              <label for="coffee">
+                <input name="drink" type="radio" id="coffee" />
+                cofee</label
+              >
+              <label for="tea">
+                <input name="drink" type="radio" id="tea" />
+                tea</label
+              >
+              <label for="choco">
+                <input name="drink" type="radio" id="choco" />
+                hot chocolate</label
+              >
+            </div>
+
+            <!-- <div class="check-inputs">
+              <input type="checkbox" id="chocolate" />
+              <label for="chocolate">Chocholate</label>
+              <input type="checkbox" id="chocolate-pudding" />
+              <label for="chocolate-pudding">Chocolate Pudding</label>
+              <input type="checkbox" id="bb" />
+              <label for="bb">Chocolate Peanut Butter</label>
+              <input type="checkbox" id="vanilla" />
+              <label for="vanilla">Vanilla</label>
+              <input type="checkbox" id="strawberry" />
+              <label for="strawberry">Strawberry</label>
+            </div> -->
+            <div class="check-inputs">
+              <label for="icecream">What ice cream do you like?</label>
+              <label for="chocolate">
+                <input type="checkbox" id="chocolate" />
+                Chocholate</label
+              >
+              <label for="chocolate-pudding">
+                <input type="checkbox" id="chocolate-pudding" />
+                Chocolate Pudding</label
+              >
+              <label for="bb">
+                <input type="checkbox" id="bb" />
+                Chocolate Peanut Butter</label
+              >
+              <label for="vanilla">
+                <input type="checkbox" id="vanilla" />
+                Vanilla</label
+              >
+              <label for="strawberry">
+                <input type="checkbox" id="strawberry" />
+                Strawberry</label
+              >
+            </div>
+            <label for="schoold">Select a school:</label>
+            <select name="school" id="school">
+              <option value="harvard">Harvard</option>
+              <option value="cairo">Cairo</option>
+              <option value="self-learner">self-learner</option>
+              <option value="none">none</option>
+            </select>
+
+            <label for="comments">Please Provide comments: </label>
+            <textarea
+              name="comments"
+              id="comments"
+              cols="50"
+              rows="10"
+            ></textarea>
+          </fieldset>
+          <button>submit</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
